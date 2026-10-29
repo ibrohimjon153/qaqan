@@ -6,3 +6,4 @@ async def start(msg: types.Message, bot: Bot):
     await msg.answer(str(user.status))
     await msg.answer("xush kelibsiz, xurmatli foydalanuvchi")
 
+print("hello")
