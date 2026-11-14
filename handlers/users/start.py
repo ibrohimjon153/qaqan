@@ -1,9 +1,7 @@
 from aiogram import Router, filters, types, Bot
 rt = Router()
-@rt.message(filters.Command("start"))
+@rt.message()
 async def start(msg: types.Message, bot: Bot):
-    user = await bot.get_chat_member(msg.chat.id, msg.from_user.id)
-    await msg.answer(str(user.status))
-    await msg.answer("xush kelibsiz, xurmatli foydalanuvchi")
+   await msg.answer("ha qalesan")
 
-print("hello")
+

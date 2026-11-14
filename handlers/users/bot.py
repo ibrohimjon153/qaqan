@@ -1,4 +1,5 @@
-from aiogram import Router, types, F, filters
+from aiogram import Router, types
+
 rt = Router()
 students = [
    "AgACAgIAAxkBAAI3UWrgjb0GbY1sUC6pzh7ppGAk_I1mAAIiIGsbM9sJSx9C0h39_EL7AQADAgADdwADPQQ",
